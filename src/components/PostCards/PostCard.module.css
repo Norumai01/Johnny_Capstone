@@ -1,0 +1,58 @@
+/* Card Styling */
+
+.container {
+    background-color: #151414; 
+    color: #A7A2A2;
+    margin: 0 27%;
+    margin-bottom: 5px;
+}
+  
+.content {
+    padding: 32px;
+}
+  
+.userInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+  
+.avatar {
+    margin-right: 12px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333; 
+    border-radius: 50%;
+}
+  
+.username {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 3px;
+}
+  
+.timestamp {
+    margin-top: 0px;
+    font-size: 0.875rem;
+    color: #8E8E8E; 
+}
+  
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+  
+.image {
+    object-fit: cover;
+    max-height: 325px;
+    width: auto;
+    border-radius: 10px;
+}
+  
+.description {
+    color: #8E8E8E; 
+}
